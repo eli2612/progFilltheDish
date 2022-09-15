@@ -35,15 +35,3 @@ r
 Bsrc/main/java/home/home2/controller/CalculateRecipeController.java,e\7\e71b04a8eccb5d12ef132e65cb45ab8598a62ff0
 `
 0src/main/java/home/home2/model/RecipeEntity.java,8\d\8d3cefb934f7a5f7870e5899f3d1afc437631d33
-b
-2src/main/java/home/home2/model/FridgeObserver.java,2\a\2a47e0c956fae3a2f147c782c7fb440321fe7340
-a
-1src/main/java/home/home2/model/FridgeSubject.java,b\e\beb509e65b060d11cdaa37119a9a073e7bb0383f
-o
-?src/main/java/home/home2/controller/ManageFridgeController.java,8\3\838dc7f4331fcb993a7e1d3f81d9aa6f9ac9333a
-_
-/src/main/java/home/home2/Fridge2Controller.java,0\b\0ba998eef83365b2edc29a68f088094d26cf32e9
-^
-.src/main/java/home/home2/FridgeController.java,6\a\6aabfce521385b7e4a9ac0b1dff8d53af4c7c89c
-i
-9src/main/java/home/home2/model/FridgeSingletonEntity.java,4\5\451708345f22226b714b59f25623206dcfac8795
