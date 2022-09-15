@@ -13,7 +13,8 @@ public class FridgeSingletonEntity extends FridgeSubject{
     private final List<IngredientEntity> ingredientList ;
     private static FridgeSingletonEntity instance = null;
     String username ;
-    int a; 
+    System.out.println("ciao");
+
 
     public FridgeSingletonEntity(List<IngredientEntity> ingredientList, String userName) {
         this.ingredientList = ingredientList;
