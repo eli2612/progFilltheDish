@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" stylesheets="@Home2.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.home2.Recipe2Controller">
+    <Pane fx:id="menuBar" layoutY="50.0" prefHeight="35.0" prefWidth="1280.0">
+        <children>
+            <GridPane prefHeight="35.0" prefWidth="1280.0">
+                <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="305.6" minWidth="10.0" prefWidth="97.4" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="353.5999923706055" minWidth="10.0" prefWidth="234.99999999999997" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="300.0" minWidth="10.0" prefWidth="207.60000000000002" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="226.0" minWidth="10.0" prefWidth="137.39999999999998" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="261.0" minWidth="10.0" prefWidth="187.60000000000002" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="212.39999999999998" minWidth="10.0" prefWidth="183.79999999999995" />
+                    <ColumnConstraints maxWidth="212.20000000000005" minWidth="149.80000000000007" prefWidth="149.80000000000007" />
+                    <ColumnConstraints maxWidth="204.20000000000005" minWidth="167.20000000000005" prefWidth="204.20000000000005" />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+                <children>
+                    <Button fx:id="Search2" mnemonicParsing="false" onAction="#clickSearchButton" prefHeight="35.0" prefWidth="183.0" style="-fx-background-color: red" text="Cerca" textFill="WHITE">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </Button>
+                    <Button fx:id="insertIngredients" mnemonicParsing="false" onAction="#clickInsertIngredients" prefHeight="34.0" prefWidth="253.0" style="-fx-background-color: red" text="Inserisci i tuoi ingredienti" textFill="WHITE" GridPane.columnIndex="1">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </Button>
+                    <Button fx:id="add" mnemonicParsing="false" onAction="#clickAddButton" prefHeight="50.0" prefWidth="183.0" style="-fx-background-color: red" text="Aggiungi la tua Ricetta" textFill="WHITE" GridPane.columnIndex="2">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </Button>
+                    <Button fx:id="login" mnemonicParsing="false" onAction="#clickLoginButton" prefHeight="50.0" prefWidth="183.0" style="-fx-background-color: red" text="Accedi" textFill="WHITE" GridPane.columnIndex="3">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </Button>
+                    <Button fx:id="recipes" mnemonicParsing="false" onAction="#clickRecipesButton" prefHeight="50.0" prefWidth="183.0" style="-fx-background-color: red" text="Elenco ricette" textFill="WHITE" GridPane.columnIndex="4">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#clickFavouriteButton" prefHeight="50.0" prefWidth="183.0" style="-fx-background-color: red" text="Lista dei Preferiti" textFill="WHITE" GridPane.columnIndex="5">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#clickFridgeButton" prefHeight="50.0" prefWidth="183.0" style="-fx-background-color: red" text="Frigo Virtuale" textFill="WHITE" GridPane.columnIndex="6">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </Button>
+                    <Button mnemonicParsing="false" onAction="#clickReviewButton" prefHeight="50.0" prefWidth="183.0" style="-fx-background-color: red" text="Lascia una Recensione" textFill="WHITE" GridPane.columnIndex="7">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </Button>
+
+                </children>
+            </GridPane>
+        </children></Pane>
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="490.0" layoutY="-5.0" prefWidth="300.0" text="FILL THE DISH!" textAlignment="CENTER">
+        <font>
+            <Font size="40.0" />
+        </font>
+    </Label>
+    <Button fx:id="home" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#clickHomeButton" prefHeight="30.0" prefWidth="50.0" />
+    <Button fx:id="back" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" onAction="#clickBackButton" prefHeight="30.0" prefWidth="50.0" />
+   <ImageView fx:id="recipeImg" fitHeight="209.0" fitWidth="293.0" layoutX="3.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true" />
+   <Label layoutX="1019.0" layoutY="107.0" prefHeight="70.0" prefWidth="170.0" text="Ingredienti">
+      <font>
+         <Font size="32.0" />
+      </font>
+   </Label>
+   <ScrollPane hbarPolicy="NEVER" layoutX="3.0" layoutY="383.0" prefHeight="258.0" prefWidth="871.0" stylesheets="@style.css" vbarPolicy="ALWAYS">
+      <content>
+         <Text fx:id="recipeDescription" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="711.6708984375">
+            <font>
+               <Font size="21.0" />
+            </font></Text>
+      </content>
+   </ScrollPane>
+    <ScrollPane hbarPolicy="NEVER" layoutX="916.0" layoutY="187.0" prefHeight="456.0" prefWidth="365.0" stylesheets="@style.css">
+        <VBox fx:id="verticalBox" minHeight="10.0" />
+    </ScrollPane>
+   <Label fx:id="recipeName" layoutX="472.0" layoutY="100.0" prefHeight="85.0" prefWidth="402.0" text="Titolo Ricetta">
+      <font>
+         <Font size="29.0" />
+      </font>
+   </Label>
+   <Label layoutX="3.0" layoutY="327.0" prefHeight="21.0" prefWidth="166.0" text="Descrizione">
+      <font>
+         <Font size="27.0" />
+      </font>
+   </Label>
+   <Separator layoutX="888.0" layoutY="92.0" orientation="VERTICAL" prefHeight="548.0" prefWidth="13.0" />
+</Pane>

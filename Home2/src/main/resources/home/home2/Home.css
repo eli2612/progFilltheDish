@@ -1,0 +1,47 @@
+#pane
+{
+    -fx-background-image: url("search.jpg");
+    -fx-background-position: center center;
+    -fx-background-size: 900 900;
+}
+
+#searchButton
+{
+    -fx-border-color: white;
+    -fx-border-style: solid;
+    -fx-border-width: 4px;
+    -fx-border-radius: 200;
+    -fx-background-color: #00000033;
+    -fx-background-radius: 200;
+    -fx-pref-width: 400;
+    -fx-pref-height: 400;
+}
+
+#searchButton:hover
+{
+    -fx-background-color: #00000055;
+    -fx-background-radius: 200;
+    -fx-pref-width: 400;
+    -fx-pref-height: 400;
+}
+
+#ingredientsButton
+{
+    -fx-border-color: white;
+    -fx-border-style: solid;
+    -fx-border-width: 4px;
+    -fx-border-radius: 200;
+    -fx-background-color: #00000033;
+    -fx-background-radius: 200;
+    -fx-pref-width: 400;
+    -fx-pref-height: 400;
+}
+
+#ingredientsButton:hover
+{
+    -fx-background-color: #00000055;
+    -fx-background-radius: 200;
+    -fx-pref-width: 400;
+    -fx-pref-height: 400;
+}
+

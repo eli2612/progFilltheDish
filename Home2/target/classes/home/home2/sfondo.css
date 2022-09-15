@@ -1,0 +1,12 @@
+#pane
+{
+    -fx-background-image: url("search.jpg");
+    -fx-background-position: center center;
+    -fx-background-size: 900 900;
+}
+
+#sfondo{
+    -fx-background-image: url("background.jpeg");
+    -fx-background-position: center center;
+    -fx-background-size: 1280 640;
+}

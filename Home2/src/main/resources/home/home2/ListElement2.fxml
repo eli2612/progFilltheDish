@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="home.home2.ElementController2"
+            prefHeight="50.0" prefWidth="800.0">
+    <children>
+        <ImageView fx:id="img" fitHeight="50.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="name" alignment="BASELINE_LEFT" layoutX="150.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="550.0" stylesheets="@menuLinks.css" text="Nome Ricetta" wrapText="true">
+            <font>
+                <Font name="SansSerif Regular" size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="removeRecipe" layoutX="750.0" mnemonicParsing="false" onMouseClicked="#clickRemoveRecipe" prefHeight="50.0" prefWidth="50.0" stylesheets="@menuLinks.css" />
+    </children>
+
+</AnchorPane>

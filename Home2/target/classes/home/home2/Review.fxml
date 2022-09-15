@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="sfondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" stylesheets="@sfondo.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.home2.ReviewController">
+   <children>
+      <Button fx:id="backButton" layoutX="1135.0" layoutY="15.0" mnemonicParsing="false" onAction="#clickBackButtonReview" stylesheets="@MenuButton.css" />
+      <Button fx:id="homeButton" layoutX="1215.0" layoutY="15.0" mnemonicParsing="false" onAction="#clickHomeButtonReview" stylesheets="@MenuButton.css" />
+      <Label alignment="CENTER" layoutX="415.0" layoutY="20.0" prefWidth="450.0" text="Lascia una recensione">
+         <font>
+            <Font name="Inter Semi Bold" size="35.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="star1" fitHeight="50.0" fitWidth="50.0" layoutX="415.0" layoutY="130.0" onMouseClicked="#clickStarReview" onMouseEntered="#hoverStarReview" onMouseExited="#releaseStarReview" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="star2" fitHeight="50.0" fitWidth="50.0" layoutX="515.0" layoutY="130.0" onMouseClicked="#clickStarReview" onMouseEntered="#hoverStarReview" onMouseExited="#releaseStarReview" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="star3" fitHeight="50.0" fitWidth="50.0" layoutX="615.0" layoutY="130.0" onMouseClicked="#clickStarReview" onMouseEntered="#hoverStarReview" onMouseExited="#releaseStarReview" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="star4" fitHeight="50.0" fitWidth="50.0" layoutX="715.0" layoutY="130.0" onMouseClicked="#clickStarReview" onMouseEntered="#hoverStarReview" onMouseExited="#releaseStarReview" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="star5" fitHeight="50.0" fitWidth="50.0" layoutX="815.0" layoutY="130.0" onMouseClicked="#clickStarReview" onMouseEntered="#hoverStarReview" onMouseExited="#releaseStarReview" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="email" layoutX="515.0" layoutY="225.0" prefHeight="40.0" prefWidth="250.0" promptText="Inserisci la tua e-mail" styleClass="tendina" stylesheets="@style.css">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <TextArea fx:id="note" layoutX="490.0" layoutY="290.0" prefHeight="150.0" prefWidth="300.0" promptText="Cosa ne pensi dell'App?" stylesheets="@Login.css" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font></TextArea>
+      <Label fx:id="alert" alignment="CENTER" layoutX="515.0" layoutY="460.0" prefHeight="30.0" prefWidth="250.0" text="Ci sono campi non riempiti!" textAlignment="CENTER" textFill="RED" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="submit" layoutX="590.0" layoutY="525.0" mnemonicParsing="false" onAction="#clickSubmitButton" prefHeight="50.0" prefWidth="100.0" stylesheets="@Login.css" text="Submit">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Pane fx:id="darkReview" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" stylesheets="@HomeMenu.css">
+         <children>
+            <Pane fx:id="menuReview" layoutX="-320.0" prefHeight="640.0" prefWidth="320.0" stylesheets="@HomeMenu.css">
+               <children>
+                  <VBox layoutY="79.0" prefHeight="561.0" prefWidth="320.0">
+                     <children>
+                        <Button fx:id="menuLink1" mnemonicParsing="false" onAction="#clickMenuLink1" prefHeight="60.0" prefWidth="320.0" stylesheets="@menuLinks.css" text="Vedi Elenco Ricette">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="menuLink2" mnemonicParsing="false" onAction="#clickMenuLink2Review" prefHeight="60.0" prefWidth="362.0" stylesheets="@menuLinks.css" text="Aggiungi la tua Ricetta">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="menuLink3" mnemonicParsing="false" onAction="#clickMenuLink3Review" prefHeight="60.0" prefWidth="344.0" stylesheets="@menuLinks.css" text="Log In">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="menuLink4" mnemonicParsing="false" onAction="#clickMenuLink4Review" prefHeight="60.0" prefWidth="344.0" stylesheets="@menuLinks.css" text="Iscriviti">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="menuLink5" mnemonicParsing="false" onAction="#clickMenuLink5" prefHeight="60.0" prefWidth="358.0" stylesheets="@menuLinks.css" text="Lascia una Recensione">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="menuLink6" mnemonicParsing="false" onAction="#clickMenuLink6" prefHeight="60.0" prefWidth="358.0" stylesheets="@menuLinks.css" text="Lista dei Preferiti">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font></Button>
+                        <Button fx:id="menuLink7" mnemonicParsing="false" onAction="#clickMenuLink7" prefHeight="60.0" prefWidth="358.0" stylesheets="@menuLinks.css" text="Visita il tuo Frigo Virtuale!">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font></Button>
+                     </children>
+                  </VBox>
+                  <Pane prefHeight="57.0" prefWidth="225.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="7.0" text="MENU" textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font name="Inter Semi Bold" size="35.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Button fx:id="menuButton" layoutX="15.0" layoutY="15.0" mnemonicParsing="false" onAction="#clickMenuButtonReview" stylesheets="@MenuButton.css" />
+   </children>
+</Pane>

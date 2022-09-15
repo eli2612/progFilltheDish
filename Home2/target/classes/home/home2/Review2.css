@@ -1,0 +1,55 @@
+#pane{
+    -fx-background-image: url("sfondoo.jpg");
+    -fx-background-position: center center;
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1280 640;
+}
+.button{
+    -fx-background-color: transparent;
+    -fx-border-radius: 5;
+}
+
+.button:hover{
+    -fx-background-color: #00000055;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+}
+
+.text-field{
+    -fx-background-color: #D2D2D2;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+}
+
+
+#menuBar{
+    -fx-background-color: red;
+}
+
+#home{
+    -fx-background-color: #00000000;
+    -fx-background-image: url(home2.png);
+    -fx-border-radius: 5;
+    -fx-background-size: 50 30;
+}
+
+#home:hover{
+    -fx-background-image: url(home2.png);
+    -fx-border-radius: 5;
+    -fx-background-color: #00000055;
+    -fx-background-size: 50 30;
+}
+
+#back{
+    -fx-background-color: #00000000;
+    -fx-background-image: url(back2.png);
+    -fx-border-radius: 5;
+    -fx-background-size: 50 30;
+}
+
+#back:hover{
+    -fx-background-image: url(back2.png);
+    -fx-border-radius: 5;
+    -fx-background-color: #00000055;
+    -fx-background-size: 50 30;
+}

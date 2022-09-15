@@ -1,0 +1,27 @@
+.text-field{
+    -fx-border-color: #00000000;
+    -fx-background-radius: 100;
+    -fx-background-color: #D2D2D2
+}
+
+.button{
+    -fx-background-radius: 100;
+    -fx-background-color: #00000000;
+    -fx-border-radius: 100;
+    -fx-border-color: #113322;
+    -fx-border-width: 2;
+}
+
+.button:hover{
+    -fx-background-radius: 100;
+    -fx-background-color: #00000055;
+    -fx-border-radius: 100;
+    -fx-border-color: #113322;
+    -fx-border-width: 2;
+}
+
+#borderpane{
+    -fx-background-image: url("LoginScreen.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1280 640;
+}

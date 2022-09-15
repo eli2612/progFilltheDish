@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.home2.InsertRecipe2Controller">
+   <stylesheets>
+      <URL value="@Search2.css" />
+      <URL value="@Add2.css" />
+   </stylesheets>
+   <children>
+      <Pane fx:id="menuBar" layoutY="50.0" prefHeight="35.0" prefWidth="1280.0">
+         <children>
+            <GridPane prefHeight="35.0" prefWidth="1280.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="305.6" minWidth="10.0" prefWidth="97.4" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="353.5999923706055" minWidth="10.0" prefWidth="234.99999999999997" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="300.0" minWidth="10.0" prefWidth="207.60000000000002" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="226.0" minWidth="10.0" prefWidth="137.39999999999998" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="261.0" minWidth="10.0" prefWidth="187.60000000000002" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="212.39999999999998" minWidth="10.0" prefWidth="183.79999999999995" />
+                  <ColumnConstraints maxWidth="212.20000000000005" minWidth="149.80000000000007" prefWidth="149.80000000000007" />
+                  <ColumnConstraints maxWidth="204.20000000000005" minWidth="167.20000000000005" prefWidth="204.20000000000005" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Button fx:id="Search2" mnemonicParsing="false" style="-fx-background-color: red" onAction="#clickSearchButton" prefHeight="35.0" prefWidth="183.0" text="Cerca" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="insertIngredients" mnemonicParsing="false" style="-fx-background-color: red" onAction="#clickInsertIngredientsIns2" prefHeight="34.0" prefWidth="253.0" text="Inserisci i tuoi ingredienti" textFill="WHITE" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="add" mnemonicParsing="false" onAction="#clickAddButton" style="-fx-background-color: purple" prefHeight="34.0" prefWidth="191.0" text="Aggiungi la tua Ricetta" textFill="WHITE" GridPane.columnIndex="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="login" mnemonicParsing="false" style="-fx-background-color: red" onAction="#clickLoginButton" prefHeight="50.0" prefWidth="183.0" text="Accedi" textFill="WHITE" GridPane.columnIndex="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="recipes" mnemonicParsing="false" onAction="#clickRecipesButtonIns2" style="-fx-background-color: red" prefHeight="50.0" prefWidth="183.0" text="Elenco ricette" textFill="WHITE" GridPane.columnIndex="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#clickFavouriteButton" style="-fx-background-color: red" prefHeight="50.0" prefWidth="183.0" text="Lista dei Preferiti" textFill="WHITE" GridPane.columnIndex="5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#clickFridgeButton" style="-fx-background-color: red" prefHeight="50.0" prefWidth="183.0" text="Frigo Virtuale" textFill="WHITE" GridPane.columnIndex="6">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#clickReviewButtonIns2" style="-fx-background-color: red" prefHeight="50.0" prefWidth="183.0" text="Lascia una Recensione" textFill="WHITE" GridPane.columnIndex="7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+
+               </children>
+            </GridPane>
+         </children></Pane>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="490.0" layoutY="-5.0" prefWidth="300.0" text="FILL THE DISH!" textAlignment="CENTER">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="home" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#clickHomeButtonIns2" prefHeight="30.0" prefWidth="50.0" />
+      <Button fx:id="back" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" onAction="#clickBackButtonIns2" prefHeight="30.0" prefWidth="50.0" />
+      <TextField layoutX="226.0" layoutY="158.0" prefHeight="30.0" prefWidth="258.0" promptText="Titolo Ricetta" style="-fx-background-radius: 30px; -fx-border-radius: 30px; -fx-border-color: black;" />
+      <TextArea layoutX="226.0" layoutY="204.0" prefHeight="300.0" prefWidth="258.0" promptText="Ingredienti" style="-fx-background-color: #D2D2D2;" wrapText="true" />
+      <TextArea layoutX="647.0" layoutY="208.0" prefHeight="300.0" prefWidth="500.0" promptText="Preparazione Ricetta" style="-fx-background-color: transparent; -fx-background-radius: 20px;" />
+      <Button layoutX="562.0" layoutY="528.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="156.0" style="-fx-border-radius: 30; -fx-background-color: transparent; -fx-background-radius: 30px; -fx-border-color: black;" text="Inserisci Ricetta" />
+   </children>
+</Pane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="154.0" prefWidth="352.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.home2.Items2Controller">
+    <children>
+        <ImageView fx:id="recipeImage" fitHeight="112.0" fitWidth="122.0" layoutX="14.0" layoutY="27.0" onMouseClicked="#clickRecipeIm">
+            <image>
+                <Image url="@pesto.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="recipeDescription" layoutX="248.0" layoutY="89.0" prefHeight="33.0" prefWidth="76.0" text="Descrizione">
+            <font>
+                <Font size="14.0" />
+            </font></Label>
+        <Label fx:id="recipeDescription1" layoutX="146.0" layoutY="89.0" prefHeight="33.0" prefWidth="88.0" text="Descrizione:">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font></Label>
+        <Label layoutX="248.0" layoutY="65.0" prefHeight="24.0" prefWidth="68.0" text="Tipologia">
+            <font>
+                <Font size="14.0" />
+            </font></Label>
+        <Label layoutX="146.0" layoutY="65.0" prefHeight="24.0" prefWidth="68.0" text="Tipologia:">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font></Label>
+        <Label fx:id="recipeName" layoutX="146.0" layoutY="27.0" prefHeight="30.0" prefWidth="205.0" text="Nome Ricetta">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+    </children>
+
+</Pane>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="330cc173-d023-424c-875f-787ed372b0ee" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="20FAS50zwd9Ku9RsNOaQ9jxqxNt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/home/home2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/target/classes/home/home2/Home.fxml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="home.home2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\987229\Desktop\Fill-the-dish-.git\trunk\Home2\src\main\resources\home\home2" />
+      <recent name="C:\Users\letis\OneDrive\Bureau\Fill-the-dish-.git\trunk\Home2\src\main\resources\home\home2" />
+      <recent name="C:\Users\987229\Desktop\copiaPROG\Home2\src\main\resources\home\home2" />
+      <recent name="C:\Users\987229\Desktop\ISPW\progetto\Fill-the-dish-.git\trunk\Home2\src\main\resources\home\home2" />
+      <recent name="C:\Users\Matteo\IdeaProjects\Home2\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\letis\OneDrive\Bureau\Fill-the-dish-.git\trunk\Home2\src\tests\java" />
+      <recent name="C:\Users\987229\Desktop\Fill-the-dish-.git\trunk\Home2\src\main\resources\home\home2" />
+      <recent name="C:\Users\987229\Desktop\copiaPROG\Home2\src\main\resources\home\home2" />
+      <recent name="C:\Users\987229\Desktop\ISPW\progetto\Fill-the-dish-.git\trunk\Home2\src\main\resources\home\home2" />
+      <recent name="C:\Users\987229\Desktop\ISPW\progetto\Fill-the-dish-.git\trunk\Home2\src\main\java\home\home2" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="home.home2" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="S" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Home2">
+    <configuration name="Home" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home.home2.Home" />
+      <module name="Home2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home.home2.Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Home2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="home.home2.Home2" />
+      <module name="Home2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEnrollController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Home2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.TestEnrollController" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEnrollController.TestEnrollInvalidSyntaxEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Home2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.TestEnrollController" />
+      <option name="METHOD_NAME" value="TestEnrollInvalidSyntaxEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLoginController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Home2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.TestLoginController" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLoginController.testLoginWrongCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Home2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.TestLoginController" />
+      <option name="METHOD_NAME" value="testLoginWrongCredentials" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLoginController.testLoginWrongUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Home2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit" />
+      <option name="MAIN_CLASS_NAME" value="junit.TestLoginController" />
+      <option name="METHOD_NAME" value="testLoginWrongUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Home2" />
+      <item itemvalue="Application.Home" />
+      <item itemvalue="JUnit.TestLoginController.testLoginWrongUsername" />
+      <item itemvalue="JUnit.TestLoginController.testLoginWrongCredentials" />
+      <item itemvalue="JUnit.TestEnrollController.TestEnrollInvalidSyntaxEmail" />
+      <item itemvalue="JUnit.TestEnrollController" />
+      <item itemvalue="JUnit.TestLoginController" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestLoginController" />
+        <item itemvalue="JUnit.TestEnrollController.TestEnrollInvalidSyntaxEmail" />
+        <item itemvalue="JUnit.TestEnrollController" />
+        <item itemvalue="JUnit.TestLoginController.testLoginWrongCredentials" />
+        <item itemvalue="JUnit.TestLoginController.testLoginWrongUsername" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="330cc173-d023-424c-875f-787ed372b0ee" name="Changes" comment="" />
+      <created>1635629959822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635629959822</updated>
+      <workItem from="1635629961103" duration="4905000" />
+      <workItem from="1635634964596" duration="147000" />
+      <workItem from="1635635376961" duration="30000" />
+      <workItem from="1635636103232" duration="69000" />
+      <workItem from="1635676135267" duration="2841000" />
+      <workItem from="1635681881981" duration="1000" />
+      <workItem from="1635704170998" duration="3682000" />
+      <workItem from="1635846283884" duration="3641000" />
+      <workItem from="1635854249412" duration="3429000" />
+      <workItem from="1635879457127" duration="6036000" />
+      <workItem from="1636042952979" duration="567000" />
+      <workItem from="1636156857808" duration="2348000" />
+      <workItem from="1636202523352" duration="1176000" />
+      <workItem from="1636297646363" duration="1267000" />
+      <workItem from="1636393759211" duration="3106000" />
+      <workItem from="1636401785976" duration="535000" />
+      <workItem from="1636541102683" duration="3000000" />
+      <workItem from="1636551392418" duration="306000" />
+      <workItem from="1636551847137" duration="1227000" />
+      <workItem from="1637152485798" duration="4852000" />
+      <workItem from="1637159448984" duration="126000" />
+      <workItem from="1637229438072" duration="6748000" />
+      <workItem from="1637248930458" duration="788000" />
+      <workItem from="1637762887699" duration="134000" />
+      <workItem from="1637763164698" duration="255000" />
+      <workItem from="1637661606433" duration="1617000" />
+      <workItem from="1637845905452" duration="68000" />
+      <workItem from="1637853500045" duration="55000" />
+      <workItem from="1637859289989" duration="6626000" />
+      <workItem from="1638037716569" duration="1735000" />
+      <workItem from="1638268434714" duration="697000" />
+      <workItem from="1638631145425" duration="12000" />
+      <workItem from="1638631267579" duration="6993000" />
+      <workItem from="1638718625671" duration="6132000" />
+      <workItem from="1638727027055" duration="205000" />
+      <workItem from="1638782728022" duration="2577000" />
+      <workItem from="1638868290772" duration="2374000" />
+      <workItem from="1638870893511" duration="33000" />
+      <workItem from="1638871731779" duration="1252000" />
+      <workItem from="1638876492615" duration="767000" />
+      <workItem from="1639584185185" duration="163000" />
+      <workItem from="1640081348454" duration="18000" />
+      <workItem from="1640114312921" duration="176000" />
+      <workItem from="1640170327344" duration="123000" />
+      <workItem from="1640170497052" duration="247000" />
+      <workItem from="1640179373575" duration="668000" />
+      <workItem from="1640704562814" duration="4158000" />
+      <workItem from="1640711802965" duration="608000" />
+      <workItem from="1640941821838" duration="1984000" />
+      <workItem from="1643369925143" duration="11445000" />
+      <workItem from="1643382466302" duration="684000" />
+      <workItem from="1643804154210" duration="39000" />
+      <workItem from="1643804259739" duration="5496000" />
+      <workItem from="1647436912891" duration="5324000" />
+      <workItem from="1647874644316" duration="5630000" />
+      <workItem from="1648125602154" duration="4409000" />
+      <workItem from="1648641994473" duration="332000" />
+      <workItem from="1648643555883" duration="1615000" />
+      <workItem from="1649687444626" duration="1309000" />
+      <workItem from="1652348410869" duration="32000" />
+      <workItem from="1652360653206" duration="1368000" />
+      <workItem from="1653838445314" duration="209000" />
+      <workItem from="1654097600717" duration="1620000" />
+      <workItem from="1655990920352" duration="169000" />
+      <workItem from="1655995168774" duration="24635000" />
+      <workItem from="1656154833147" duration="1520000" />
+      <workItem from="1656156984232" duration="905000" />
+      <workItem from="1656193876930" duration="1960000" />
+      <workItem from="1656196547391" duration="652000" />
+      <workItem from="1656237780498" duration="30299000" />
+      <workItem from="1656354514249" duration="106000" />
+      <workItem from="1656366954343" duration="340000" />
+      <workItem from="1656367339114" duration="32000" />
+      <workItem from="1656403514530" duration="17403000" />
+      <workItem from="1656351058553" duration="18000" />
+      <workItem from="1656351146391" duration="248000" />
+      <workItem from="1656351471319" duration="466000" />
+      <workItem from="1656360258856" duration="267000" />
+      <workItem from="1656402887821" duration="4794000" />
+      <workItem from="1656429765384" duration="673000" />
+      <workItem from="1656582455329" duration="632000" />
+      <workItem from="1656583174891" duration="118000" />
+      <workItem from="1656583321808" duration="111000" />
+      <workItem from="1656583772097" duration="37428000" />
+      <workItem from="1657980271415" duration="2247000" />
+      <workItem from="1658739786769" duration="3445000" />
+      <workItem from="1658844723076" duration="4375000" />
+      <workItem from="1658927377940" duration="4855000" />
+      <workItem from="1658953567848" duration="1085000" />
+      <workItem from="1659009004820" duration="20284000" />
+      <workItem from="1659176255581" duration="89583000" />
+      <workItem from="1659703040141" duration="19728000" />
+      <workItem from="1659735534061" duration="90000" />
+      <workItem from="1659735764835" duration="5810000" />
+      <workItem from="1659781400793" duration="8000" />
+      <workItem from="1659781504685" duration="305000" />
+      <workItem from="1659808765333" duration="49330000" />
+      <workItem from="1660210014601" duration="167000" />
+      <workItem from="1660210958772" duration="1229000" />
+      <workItem from="1660295416840" duration="3244000" />
+      <workItem from="1660299048699" duration="57000" />
+      <workItem from="1660465677303" duration="3186000" />
+      <workItem from="1660727711417" duration="281000" />
+      <workItem from="1660831390821" duration="25000" />
+      <workItem from="1660918462240" duration="24730000" />
+      <workItem from="1661351089293" duration="23883000" />
+      <workItem from="1662544252140" duration="80000" />
+      <workItem from="1662544936994" duration="3715000" />
+      <workItem from="1662556523202" duration="13740000" />
+      <workItem from="1662618031749" duration="2146000" />
+      <workItem from="1662644612128" duration="3608000" />
+      <workItem from="1662648600358" duration="9416000" />
+      <workItem from="1662668050407" duration="1501000" />
+      <workItem from="1662679104231" duration="3949000" />
+      <workItem from="1662683312318" duration="1840000" />
+      <workItem from="1662706111083" duration="43466000" />
+      <workItem from="1662790528960" duration="1264000" />
+      <workItem from="1662925337103" duration="36000" />
+      <workItem from="1663024298718" duration="52000" />
+      <workItem from="1663028227884" duration="276000" />
+      <workItem from="1663073578952" duration="1279000" />
+      <workItem from="1663112329166" duration="90000" />
+      <workItem from="1663145964257" duration="95000" />
+      <workItem from="1663148436659" duration="31000" />
+      <workItem from="1663150059860" duration="28000" />
+      <workItem from="1663167660084" duration="4678000" />
+      <workItem from="1663231018374" duration="93000" />
+      <workItem from="1663238612042" duration="1521000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.reflect.InvocationTargetException" package="java.lang.reflect" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/home/home2/ResultController.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Home2$Home2.ic" NAME="Home2 Coverage Results" MODIFIED="1662365023731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>home.home2.Model.*</FILTER>
+    </SUITE>
+  </component>
+</project>

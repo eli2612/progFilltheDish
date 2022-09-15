@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="sfondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" stylesheets="@sfondo.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.home2.RecipeController">
+   <children>
+      <Label fx:id="recipeName" layoutX="462.0" layoutY="13.0" prefHeight="62.0" prefWidth="441.0" text="Titolo Ricetta" textAlignment="CENTER">
+         <font>
+            <Font name=" Inter Semi Bold" size="35.0" />
+         </font>
+      </Label>
+      <Separator layoutX="590.0" layoutY="109.0" orientation="VERTICAL" prefHeight="497.0" prefWidth="0.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="206.0" layoutY="97.0" prefHeight="62.0" prefWidth="238.0" text="Ingredienti:" wrapText="true">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+      <Button fx:id="homeButton" layoutX="1215.0" layoutY="15.0" onAction="#clickHomeButton" stylesheets="@MenuButton.css">
+      </Button>
+      <ImageView fx:id="favButton" fitHeight="50.0" fitWidth="50.0" layoutX="50.0" layoutY="178.0" onMouseClicked="#clickFavButton" onMouseEntered="#hoveredButton" onMouseExited="#releaseButton" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="backButton" layoutX="1135.0" layoutY="15.0" onAction="#clickBackButton" stylesheets="@MenuButton.css">
+      </Button>
+
+            <ImageView fx:id="recipeImg" fitHeight="240.0" fitWidth="285.0" layoutX="991.0" layoutY="126.0">
+               <image>
+                  <Image url="@im1.png" />
+               </image>
+            </ImageView>
+
+
+         
+      <Pane layoutX="180.0" layoutY="150.0" prefHeight="450.0" prefWidth="385.0">
+         <children>
+
+            <ScrollPane hbarPolicy="NEVER" layoutX="15.0" layoutY="15.0" prefHeight="431.0" prefWidth="354.0" stylesheets="@style.css" vbarPolicy="ALWAYS">
+               <VBox fx:id="verticalBox" minHeight="10.0" />
+            </ScrollPane>
+         </children>
+      </Pane>
+      <Label layoutX="626.0" layoutY="327.0" prefHeight="39.0" prefWidth="190.0" text="Descrizione">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <ScrollPane hbarPolicy="NEVER" layoutX="626.0" layoutY="390.0" prefHeight="250.0" prefWidth="649.0" stylesheets="@style.css" vbarPolicy="ALWAYS">
+         <content>
+            <Text fx:id="recipeDescription" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="648.6708984375">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </content>
+      </ScrollPane>
+      <Pane fx:id="dark" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" stylesheets="@HomeMenu.css">
+         <children>
+            <Pane fx:id="menu" layoutX="-320.0" prefHeight="640.0" prefWidth="320.0" stylesheets="@HomeMenu.css">
+               <children>
+                  <VBox layoutY="79.0" prefHeight="561.0" prefWidth="320.0">
+                     <children>
+                        <Button fx:id="menuLink1" mnemonicParsing="false" onAction="#clickMenuLink1" prefHeight="60.0" prefWidth="320.0" stylesheets="@menuLinks.css" text="Vedi Elenco Ricette">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="menuLink2" mnemonicParsing="false" onAction="#clickMenuLink2" prefHeight="60.0" prefWidth="362.0" stylesheets="@menuLinks.css" text="Aggiungi la tua Ricetta">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="menuLink3" mnemonicParsing="false" onAction="#clickMenuLink3" prefHeight="60.0" prefWidth="344.0" stylesheets="@menuLinks.css" text="Log In">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="menuLink4" mnemonicParsing="false" onAction="#clickMenuLink4" prefHeight="60.0" prefWidth="344.0" stylesheets="@menuLinks.css" text="Iscriviti">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="menuLink5" mnemonicParsing="false" onAction="#clickMenuLink5" prefHeight="60.0" prefWidth="358.0" stylesheets="@menuLinks.css" text="Lascia una Recensione">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="menuLink6" mnemonicParsing="false" onAction="#clickMenuLink6" prefHeight="60.0" prefWidth="358.0" stylesheets="@menuLinks.css" text="Lista dei Preferiti">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="menuLink7" mnemonicParsing="false" onAction="#clickMenuLink7" prefHeight="60.0" prefWidth="358.0" stylesheets="@menuLinks.css" text="Visita il tuo Frigo Virtuale!">
+                           <font>
+                              <Font name="SansSerif Regular" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <Pane prefHeight="57.0" prefWidth="225.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="7.0" text="MENU" textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font name="Inter Semi Bold" size="35.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Button fx:id="menuButton" layoutX="15.0" layoutY="15.0" mnemonicParsing="false" onAction="#clickMenuButton" stylesheets="@MenuButton.css" />
+   </children>
+</Pane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="50.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.home2.ElementSelection2Controller">
+    <children>
+        <ImageView fx:id="img" fitHeight="50.0" fitWidth="151.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="name" alignment="BASELINE_LEFT" layoutX="237.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="308.0" stylesheets="@menuLinks.css" text="Nome Ricetta" wrapText="true">
+            <font>
+                <Font name="SansSerif Regular" size="20.0" />
+            </font>
+        </Button>
+        <CheckBox fx:id="checkBox"  onAction="#selectedIng" layoutX="649.0" layoutY="16.0" mnemonicParsing="false" prefHeight="14.0" prefWidth="12.0" stylesheets="@style.css" />
+    </children>
+</Pane>

@@ -1,0 +1,28 @@
+
+#ricetta1{
+
+    -fx-background-repeat: stretch;
+    -fx-background-size: 160 150;
+    -fx-background-position: center center;
+    -fx-background-radius: 30;
+    -fx-border-image: 30;
+}
+
+#ricetta2{
+
+    -fx-background-position: center center;
+    -fx-background-radius: 30;
+
+}
+
+#ricetta3{
+
+    -fx-background-position: center center;
+    -fx-background-radius: 30;
+
+}
+
+#testo1{
+    -fx-background-radius: 30;
+
+}

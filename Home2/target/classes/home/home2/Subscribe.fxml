@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="sfondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" stylesheets="@sfondo.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.home2.SubscribeController">
+   <center>
+      <Pane prefHeight="532.0" prefWidth="1280.0" BorderPane.alignment="CENTER">
+         <children>
+
+            <TextField fx:id="name" layoutX="300.0" layoutY="50.0" prefHeight="40.0" prefWidth="250.0" promptText="Nome" styleClass="tendina" stylesheets="@style.css">
+               <font>
+                  <Font name="Inter Light BETA" size="15.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="pwd" layoutX="730.0" layoutY="140.0" prefHeight="40.0" prefWidth="250.0" promptText="Password (min. 8 caratteri)" styleClass="tendina" stylesheets="@style.css">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="subscribe" layoutX="565.0" layoutY="400.0" mnemonicParsing="false" onAction="#clickSubscribe" prefHeight="50.0" prefWidth="150.0" stylesheets="@Login.css" text="Iscriviti" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Hyperlink fx:id="login" alignment="CENTER" layoutX="565.0" layoutY="295.0" onAction="#clickLogin" prefWidth="150.0" text="Oppure fai il Login" textAlignment="CENTER">
+               <font>
+                  <Font name="SansSerif Regular" size="14.0" />
+               </font></Hyperlink>
+            <TextField fx:id="lastname" layoutX="300.0" layoutY="140.0" prefHeight="40.0" prefWidth="250.0" promptText="Cognome" styleClass="tendina" stylesheets="@style.css">
+               <font>
+                  <Font name="Inter Light BETA" size="15.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="pwdRepeat" layoutX="730.0" layoutY="230.0" prefHeight="40.0" prefWidth="250.0" promptText="Ripeti Password" styleClass="tendina" stylesheets="@style.css">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </PasswordField>
+            <TextField fx:id="username" layoutX="300.0" layoutY="230.0" prefHeight="40.0" prefWidth="250.0" promptText="Username" styleClass="tendina" stylesheets="@style.css">
+               <font>
+                  <Font name="Inter Light BETA" size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="email" layoutX="730.0" layoutY="50.0" prefHeight="40.0" prefWidth="250.0" promptText="E-mail" styleClass="tendina" stylesheets="@style.css">
+               <font>
+                  <Font name="Inter Light BETA" size="15.0" />
+               </font>
+            </TextField>
+            <Label fx:id="pwdAlert1" layoutX="1000.0" layoutY="150.0" text="Password troppo corta" textFill="RED">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="pwdAlert4" layoutX="550.0" layoutY="350.0" text="Ci sono campi non riempiti" textFill="RED">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="pwdAlert2" layoutX="1000.0" layoutY="240.0" text="Le due password non coincidono" textFill="RED">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="alert" alignment="CENTER" layoutX="515.0" layoutY="350.0" prefWidth="250.0" text="Utente registrato correttamente" textAlignment="CENTER" textFill="RED">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="alertUser" alignment="CENTER" layoutX="515.0" layoutY="350.0" prefWidth="250.0" text="Questo username è gia stato scelto" textAlignment="CENTER" textFill="RED">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="pwdAlert3" layoutX="1000.0" layoutY="60.0" text="Email non valida!" textFill="RED">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Pane fx:id="dark" layoutY="-100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" stylesheets="@HomeMenu.css">
+               <children>
+                  <Pane fx:id="menu" layoutX="-320.0" prefHeight="640.0" prefWidth="320.0" stylesheets="@HomeMenu.css">
+                     <children>
+                        <VBox layoutY="79.0" prefHeight="561.0" prefWidth="320.0">
+                           <children>
+                              <Button fx:id="menuLink1" mnemonicParsing="false" onAction="#clickMenuLink1" prefHeight="60.0" prefWidth="320.0" stylesheets="@menuLinks.css" text="Vedi Elenco Ricette">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="menuLink2" mnemonicParsing="false" onAction="#clickMenuLink2" prefHeight="60.0" prefWidth="362.0" stylesheets="@menuLinks.css" text="Aggiungi la tua Ricetta">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="menuLink3" mnemonicParsing="false" onAction="#clickMenuLink3" prefHeight="60.0" prefWidth="344.0" stylesheets="@menuLinks.css" text="Log In">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="menuLink4" mnemonicParsing="false" onAction="#clickMenuLink4" prefHeight="60.0" prefWidth="344.0" stylesheets="@menuLinks.css" text="Iscriviti">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="menuLink5" mnemonicParsing="false" onAction="#clickMenuLink5" prefHeight="60.0" prefWidth="358.0" stylesheets="@menuLinks.css" text="Lascia una Recensione">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="menuLink6" mnemonicParsing="false" onAction="#clickMenuLink6" prefHeight="60.0" prefWidth="358.0" stylesheets="@menuLinks.css" text="Lista dei Preferiti">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="menuLink7" mnemonicParsing="false" onAction="#clickMenuLink7" prefHeight="60.0" prefWidth="358.0" stylesheets="@menuLinks.css" text="Visita il tuo Frigo Virtuale!">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                        <Pane prefHeight="57.0" prefWidth="225.0">
+                           <children>
+                              <Label layoutX="14.0" layoutY="7.0" text="MENU" textAlignment="CENTER" wrapText="true">
+                                 <font>
+                                    <Font name="Inter Semi Bold" size="35.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </center>
+   <top>
+      <Pane prefHeight="100.0" prefWidth="1280.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="525.0" layoutY="13.0" prefHeight="74.0" prefWidth="230.0" text="     Iscriviti" wrapText="true">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Button fx:id="menuButton" layoutX="15.0" layoutY="15.0" mnemonicParsing="false" onAction="#clickMenuButton" stylesheets="@MenuButton.css" />
+            <Button fx:id="homeButton" layoutX="1215.0" layoutY="15.0" mnemonicParsing="false" onAction="#clickHomeButton" stylesheets="@MenuButton.css" />
+            <Button fx:id="backButton" layoutX="1135.0" layoutY="15.0" mnemonicParsing="false" onAction="#clickBackButton" stylesheets="@MenuButton.css" />
+         </children>
+      </Pane>
+   </top>
+</BorderPane>

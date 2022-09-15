@@ -1,0 +1,25 @@
+.button
+{
+    -fx-border-color: #00000000;
+    -fx-background-color: #00000000;
+    -fx-background-radius: 0;
+}
+
+.button:hover
+{
+    -fx-border-color: #00000000;
+    -fx-background-color: #00000044;
+    -fx-background-radius: 0;
+}
+
+#removeRecipe{
+    -fx-background-image: url("trasher.png");
+}
+
+#cover{
+    -fx-background-color: #00000000;
+}
+
+#cover:hover{
+    -fx-background-color: #00000044;
+}

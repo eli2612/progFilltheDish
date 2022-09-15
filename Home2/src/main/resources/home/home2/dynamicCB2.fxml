@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="36.0" prefWidth="378.0" styleClass="ricetta" stylesheets="style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.home2.DynamicCB2Controller">
+    <children>
+
+        <ChoiceBox fx:id="choiceBox" layoutX="1.0" layoutY="1.0" onAction="#getChoiceBoxValue" prefHeight="34.0" prefWidth="378.0" styleClass="tendina" stylesheets="@style.css" />
+
+    </children>
+
+</Pane>

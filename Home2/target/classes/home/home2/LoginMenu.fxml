@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" stylesheets="@LoginScreen.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.home2.HomeController">
+   <center>
+      <Pane prefHeight="532.0" prefWidth="1280.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="username" layoutX="515.0" layoutY="200.0" prefHeight="40.0" prefWidth="250.0" promptText="Username" stylesheets="@LoginScreen.css">
+               <font>
+                  <Font name="Inter Light BETA" size="15.0" />
+               </font></TextField>
+            <PasswordField fx:id="password" layoutX="515.0" layoutY="275.0" prefHeight="40.0" prefWidth="250.0" promptText="Password" stylesheets="@LoginScreen.css">
+               <font>
+                  <Font size="15.0" />
+               </font></PasswordField>
+            <Button layoutX="565.0" layoutY="375.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" stylesheets="@LoginScreen.css" text="Login" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="100.0" fitWidth="148.0" layoutX="597.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@padlock.png" />
+               </image>
+            </ImageView>
+            <Pane layoutY="-100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1280.0" style="-fx-background-color: #00000044;">
+               <children>
+                  <Pane fx:id="leftpane" prefHeight="640.0" prefWidth="320.0" stylesheets="@HomeMenu.css">
+                     <children>
+                        <VBox layoutY="79.0" prefHeight="561.0" prefWidth="320.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="320.0" stylesheets="@menuLinks.css" text="Vedi Elenco Ricette">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="addRecipeButton" mnemonicParsing="false" onAction="#clickMenuLink2" prefHeight="60.0" prefWidth="362.0" stylesheets="@menuLinks.css" text="Aggiungi la tua Ricetta">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#clickMenuLink3" prefHeight="60.0" prefWidth="344.0" stylesheets="@menuLinks.css" text="Log In">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="358.0" stylesheets="@menuLinks.css" text="Lascia una Recensione">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                        <Pane prefHeight="57.0" prefWidth="225.0">
+                           <children>
+                              <Label layoutX="78.0" layoutY="11.0" text="MENU" textAlignment="CENTER" wrapText="true">
+                                 <font>
+                                    <Font name="Inter Semi Bold" size="35.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Button fx:id="menuButton" layoutX="255.0" layoutY="15.0" mnemonicParsing="false" onAction="#clickMenuButton" prefHeight="55.0" prefWidth="46.0" stylesheets="@MenuButton.css" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </center>
+   <top>
+      <Pane prefHeight="100.0" prefWidth="1280.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="552.0" layoutY="13.0" prefHeight="74.0" prefWidth="176.0" text="Login" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Inter Semi Bold" size="35.0" />
+               </font>
+            </Label>
+            <Button fx:id="homeButton" layoutX="1215.0" layoutY="15.0" mnemonicParsing="false" onAction="#clickHomeButton" stylesheets="@MenuButton.css" />
+            <Button fx:id="backButton" layoutX="1135.0" layoutY="15.0" mnemonicParsing="false" onAction="#clickBackButton" stylesheets="@MenuButton.css" />
+         </children>
+      </Pane>
+   </top>
+</BorderPane>

@@ -1,0 +1,98 @@
+#menuButton
+{
+    -fx-background-image: url("menu.png");
+    -fx-pref-height: 50px;
+    -fx-pref-width: 50px;
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-border-color: #00000000;
+    -fx-background-color: #00000000;
+}
+
+#menuButton:hover
+{
+    -fx-background-image: url("menu.png");
+    -fx-pref-height: 50px;
+    -fx-pref-width: 50px;
+    -fx-background-repeat: stretch;
+    -fx-border-color: #00000000;
+    -fx-background-color: #00000044;
+    -fx-background-radius: 10;
+}
+
+#homeButton{
+    -fx-background-image: url("home.png");
+    -fx-pref-height: 50px;
+    -fx-pref-width: 50px;
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-border-color: #00000000;
+    -fx-background-color: #00000000;
+}
+
+#homeButton:hover
+{
+    -fx-background-image: url("home.png");
+    -fx-pref-height: 50px;
+    -fx-pref-width: 50px;
+    -fx-background-repeat: stretch;
+    -fx-border-color: #00000000;
+    -fx-background-color: #00000044;
+    -fx-background-radius: 100;
+}
+
+#backButton{
+    -fx-background-image: url("back.png");
+    -fx-pref-height: 50px;
+    -fx-pref-width: 50px;
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-border-color: #00000000;
+    -fx-background-color: #00000000;
+}
+
+#backButton:hover
+{
+    -fx-background-image: url("back.png");
+    -fx-pref-height: 50px;
+    -fx-pref-width: 50px;
+    -fx-background-repeat: stretch;
+    -fx-border-color: #00000000;
+    -fx-background-color: #00000044;
+    -fx-background-radius: 100;
+}
+
+#star1{
+    -fx-background-image: url(star.png);
+}
+#star1:hover{
+    -fx-background-image: url(starfilled.png);
+}
+
+#star2{
+    -fx-background-image: url(star.png);
+}
+#star2:hover{
+    -fx-background-image: url(starfilled.png);
+}
+
+#star3{
+    -fx-background-image: url(star.png);
+}
+#star3:hover{
+    -fx-background-image: url(starfilled.png);
+}
+
+#star4{
+    -fx-background-image: url(star.png);
+}
+#star4:hover{
+    -fx-background-image: url(starfilled.png);
+}
+
+#star5{
+    -fx-background-image: url(star.png);
+}
+#star5:hover{
+    -fx-background-image: url(starfilled.png);
+}
